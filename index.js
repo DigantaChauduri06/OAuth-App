@@ -88,8 +88,4 @@ app.get("/logout", (req, res, next) => {
 });
 
 
-app.listen(4000,()=> console.log('App is running'));
-/*
-  facebook app id: 621575719122646
-  facebook app secrect: ce54845b74b049a3fe134e94c75c718a
-*/
+app.listen(4000,()=> console.log('App is running'))
